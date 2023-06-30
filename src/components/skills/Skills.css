@@ -74,6 +74,11 @@ p.language {
         max-width: 600px;
     }
 
+    .icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .icons > div {
         width: 60px;
         height: 60px;
@@ -84,6 +89,11 @@ p.language {
 @media (max-width: 480px) {
     .skills-contents {
         max-width: 300px;
+    }
+
+    .icons {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .icons > div {
