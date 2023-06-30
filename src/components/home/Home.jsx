@@ -19,13 +19,10 @@ const Home = () => {
     return(
         <div id="home" className='home'>
             <div style={{ fontFamily: "JBMono" }} className="introWrapper">
-                <div className="intro-number">
-                    <h1 className="number">01</h1>
-                    <h1 className="number">02</h1>
-                </div>
-
                 <div className="intro-text">
-                    <Typewriter 
+                    <div className="intro-text1">
+                        <h1 className="number">01</h1>
+                        <Typewriter 
                         options={{
                             strings: "Hello world.",
                             loop: false, 
@@ -38,8 +35,11 @@ const Home = () => {
                             .callFunction(handleComplete)
                         }}
                     />
-
-                    <Typewriter
+                    </div>
+                    
+                    <div className="intro-text2">
+                        <h1 className="number">02</h1>
+                        <Typewriter
                         options={{
                             cursor: "_",
                         }}
@@ -50,6 +50,7 @@ const Home = () => {
                             .start();
                         }}
                         />
+                    </div>
                 </div>
             </div>
 

@@ -9,26 +9,25 @@
 
 .introWrapper {
     display: flex;
+    flex-direction: column;
     align-content: center;
     margin-left: 30em;
-}
-
-.intro-number {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-right: 1.5rem;
-}
-
-.number {
-    font-size: 4rem;
-    padding-top: 5px;
 }
 
 .intro-text {
     text-align: left !important;
     line-height: 2.2em;
     font-size: 5rem;
+}
+
+.intro-text > * {
+  display: flex;
+  align-items: baseline;
+}
+
+.number {
+  font-size: 1em;
+  margin-right: 0.2em;
 }
 
 .intro-contact {
