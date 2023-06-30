@@ -1,0 +1,105 @@
+.projects {
+    min-height: 100vh;
+    color: white;
+}
+
+.projects-text {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 25px;
+}
+
+.col1 > * {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 25px;
+}
+
+.col2 > * {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.projects-content > * {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.project1-image {
+    height: 380px;
+    width: 605px;
+    background-color: white;
+}
+
+.project1-description {
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: grey;
+    padding-bottom: 10px;
+    border-bottom: 5px solid red;
+}
+
+.project1-tech {
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: grey;
+    padding-bottom: 10px;
+}
+
+.project2-image {
+    height: 380px;
+    width: 605px;
+    background-color: white;
+}
+
+.project2-description {
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: grey;
+    padding-bottom: 10px;
+    border-bottom: 5px solid red;
+}
+
+.project2-tech {
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: grey;
+    padding-bottom: 10px;
+}
+
+.project3-image {
+    height: 380px;
+    width: 605px;
+    background-color: white;
+}
+
+.project3-description {
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: grey;
+    padding-bottom: 10px;
+    border-bottom: 5px solid red;
+}
+
+.project3-tech {
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: grey;
+    padding-bottom: 10px;
+}

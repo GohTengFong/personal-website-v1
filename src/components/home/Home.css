@@ -1,0 +1,93 @@
+.home {
+    color: white; 
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.introWrapper {
+    display: flex;
+    align-content: center;
+    margin-left: 30em;
+}
+
+.intro-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 1.5rem;
+}
+
+.number {
+    font-size: 4rem;
+    padding-top: 5px;
+}
+
+.intro-text {
+    text-align: left !important;
+    line-height: 2.2em;
+    font-size: 5rem;
+}
+
+.intro-contact {
+    text-decoration: none;
+    padding: 0, 10, 0, 10;
+    font-size: 3em;
+}
+
+.intro-contact-logo {
+    color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .introWrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-number {
+    margin-right: 0.5rem;
+  }
+
+  .number {
+    font-size: 3rem;
+  }
+
+  .intro-text {
+    font-size: 3.5rem;
+  }
+
+  .intro-contact {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .introWrapper {
+    flex-direction: column;
+  }
+
+  .intro-number {
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .number {
+    font-size: 2.5rem;
+  }
+
+  .intro-text {
+    font-size: 2.8rem;
+    line-height: 2em;
+  }
+
+  .intro-contact {
+    font-size: 1.5em;
+  }
+}

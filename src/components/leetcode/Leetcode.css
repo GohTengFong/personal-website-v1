@@ -1,0 +1,72 @@
+.leetcode {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leetcode-text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.leetcode-progress {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-size: xx-large;
+}
+
+.leetcode-bar > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bar {
+    width: 500px;
+}
+
+.bg-easy-bar {
+    background-color: #00b8a3;
+}
+
+.bg-medium-bar {
+    background-color: #ffc01e;
+}
+
+.bg-hard-bar {
+    background-color: #ef4744;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .bar {
+      width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bar {
+        width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bar {
+        width: 200px;
+    }
+}
