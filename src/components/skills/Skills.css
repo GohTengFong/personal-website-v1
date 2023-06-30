@@ -78,12 +78,6 @@ p.language {
         flex-wrap: wrap;
         justify-content: center;
     }
-
-    .icons > div {
-        width: 60px;
-        height: 60px;
-        margin: 5px;
-    }
 }
 
 @media (max-width: 480px) {
@@ -94,11 +88,5 @@ p.language {
     .icons {
         flex-wrap: wrap;
         justify-content: center;
-    }
-
-    .icons > div {
-        width: 40px;
-        height: 40px;
-        margin: 8px;
     }
 }
