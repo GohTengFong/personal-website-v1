@@ -54,8 +54,6 @@ const Home = () => {
                 </div>
             </div>
 
-
-
             <div className="intro-contact"> 
                 <span><a href="https://github.com/GohTengFong" target="_blank" className="intro-contact-logo"><FaGithubSquare/></a></span>
                 <span className="intro-contact-bar"> | </span>

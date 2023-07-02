@@ -16,6 +16,7 @@ const Navigate = () => {
                     <Nav.Link href="#skills" className="nav-skills">Skills</Nav.Link>
                     <Nav.Link href="#projects" className="nav-projects">Projects</Nav.Link>
                     <Nav.Link href="#leetcode" className="nav-leetcode">LeetCode</Nav.Link>
+                    {/* <Nav.Link href="#contact" className="nav-contact">Contact</Nav.Link> */}
                 </Nav>
             </Navbar.Collapse>
       </Navbar>

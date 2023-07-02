@@ -6,6 +6,7 @@ import About from './components/about/About'
 import Skills from './components/skills/Skills'
 import Projects from './components/projects/Projects'
 import Leetcode from './components/leetcode/Leetcode'
+import Contact from './components/contact/Contact'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Skills />
       {/* <Projects /> */}
       <Leetcode />
+      {/* <Contact /> */}
     </body>
     </>
   )
