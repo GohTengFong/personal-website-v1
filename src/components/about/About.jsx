@@ -1,15 +1,29 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './About.css'
 import PORTRAIT from '../images/derp.jpg'
 import "../../fonts/Font.css"
+import { color, useInView } from 'framer-motion'
 
 const About = () => {
+    const ref = useRef(null)
+    const isInView = useInView(ref, { once: true })
+
     return(
         <div style={{ fontFamily: "JBMono" }} id="about" className="about">
             <div className="aboutWrapper">
-                <img className="photo" src={PORTRAIT} />
+                <img style={{
+                    transform: isInView ? "none" : "translateX(-200px)",
+                    opacity: isInView ? 1 : 0,
+                    transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                    }} ref={ref} className="photo" src={PORTRAIT}
+                />
 
-                <div className="paragraph">
+                <div style={{
+                    transform: isInView ? "none" : "translateX(+200px)",
+                    opacity: isInView ? 1 : 0,
+                    transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                    }} ref={ref} className="paragraph">
+                        
                     <div className="header">
                         <span className="purple">def</span> <span className="red">aboutMe():</span>
                     </div>
