@@ -2,7 +2,7 @@ import anime from "animejs";
 
 const WaterDropGrid = () => {
   return (
-    <div className="absolute grid place-content-center -ml-[19.5rem] pb-20 md:pl-[25rem] lg:pl-[80rem]">
+    <div className="absolute grid place-content-center -ml-[19rem] pb-20 md:pl-[25rem] lg:pl-[80rem]">
       <DotGrid />
     </div>
   );
