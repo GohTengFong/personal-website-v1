@@ -1,73 +1,82 @@
 .leetcode {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leetcodeWrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 .leetcode-text {
-    color: white;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .leetcode-progress {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
-    font-size: xx-large;
+  font-size: xx-large;
 }
 
 .leetcode-bar > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .bar {
-    width: 500px;
+  width: 500px;
 }
 
 .bg-easy-bar {
-    background-color: #00b8a3;
+  background-color: #00b8a3;
 }
 
 .bg-medium-bar {
-    background-color: #ffc01e;
+  background-color: #ffc01e;
 }
 
 .bg-hard-bar {
-    background-color: #ef4744;
+  background-color: #ef4744;
 }
 
 /* Responsive styles */
 @media (max-width: 1024px) {
-    .bar {
-      width: 400px;
-    }
+  .bar {
+    width: 400px;
+  }
 }
 
 @media (max-width: 768px) {
-    .bar {
-        width: 300px;
-    }
+  .bar {
+    width: 300px;
+  }
 }
 
 @media (max-width: 480px) {
-    .bar {
-        width: 200px;
-    }
+  .bar {
+    width: 200px;
+  }
+
+  .header {
+    font-size: x-large;
+  }
 }

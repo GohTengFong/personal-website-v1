@@ -7,8 +7,8 @@
 }
 
 .contactWrapper {
-    height: 200px;
-    width: 450px;
+    display: flex;
+    flex-direction: row;
 }
 
 .contact-text {

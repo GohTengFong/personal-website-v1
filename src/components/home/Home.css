@@ -1,23 +1,24 @@
 .home {
-    color: white; 
-    text-align: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .introWrapper {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    margin-left: 30em;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-left: 30em;
 }
 
 .intro-text {
-    text-align: left !important;
-    line-height: 2.2em;
-    font-size: 5rem;
+  text-align: left !important;
+  line-height: 2.2em;
+  font-size: 5rem;
+  z-index: 10;
 }
 
 .intro-text > * {
@@ -31,13 +32,22 @@
 }
 
 .intro-contact {
-    text-decoration: none;
-    padding: 0, 10, 0, 10;
-    font-size: 3em;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 3em;
+  z-index: 10;
+}
+
+.intro-contact > * {
+  display: flex;
+  padding-left: 5px;
+  padding-right: 5px;
+  align-items: center;
 }
 
 .intro-contact-logo {
-    color: white;
+  color: white;
 }
 
 /* Responsive styles */
